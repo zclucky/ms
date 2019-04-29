@@ -1,0 +1,13 @@
+server:
+  port: 8010
+mybatis:
+  mapperLocations: classpath:mapping/*.xml
+spring:
+  datasource:
+    name: ms
+    url: jdbc:mysql://127.0.0.1:3306/ms?verifyServerCertificate=false&useSSL=false
+    username: sckr
+    password: sckr2018@yanshi
+    # 使用druid数据源
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.cj.jdbc.Driver
